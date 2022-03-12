@@ -1,42 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>crypto dashboard</title>
-      <link
+    <link
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
     />
     <link href="assets/style.css" rel="stylesheet" />
-</head>
-<body>
+  </head>
+  <body>
     <nav>
-
-    <div class="container">
-        <img src="assets/images/logo.png" class="logo">
+      <div class="container">
+        <img src="assets/images/logo.png" class="logo" />
         <div class="search-bar">
-            <span class="material-icons">search</span>
-            <input type="search" placeholder="Search">
+          <span class="material-icons">search</span>
+          <input type="search" placeholder="Search" />
         </div>
 
-    <div class="profile-area">
-        <div class="theme-btn">
+        <div class="profile-area">
+          <div class="theme-btn">
             <span class="material-icons active">light_mode</span>
             <span class="material-icons">dark_mode</span>
-        </div>
-        <div class="profile">
+          </div>
+          <div class="profile">
             <div class="profile-photo">
-                <img src="assets/images/profile.jpg">
+              <img src="assets/images/profile.jpg" />
             </div>
             <h5>Yousef</h5>
             <span class="material-icons">expand_more</span>
-        </div>
-        <button id="menu-btn">
+          </div>
+          <button id="menu-btn">
             <span class="material-icons">menu</span>
-        </button>
-    </div>
-</div>
-</body>
+          </button>
+        </div>
+      </div>
+    </nav>
+    <!-- End of Navbar -->
+    <main>
+        <aside>
+            <button id="close-btn">
+                <span class="material-icons">close</span>
+            </button>
+            <div class="sidebar">
+                <a href="#" class="active">
+                    <span class="material-icons">dashboard</span>
+                    <h4>Dashboard</h4>
+                </a>
+                <a href="#">
+                    <span class="material-icons">currency_exchange</span>
+                    <h4>Exchange</h4>
+                </a>
+                <a href="#">
+                    <span class="material-icons">account_balance_wallet</span>
+                    <h4>Wallet</h4>
+                </a>
+                <a href="#">
+                    <span class="material-icons">payment</span>
+                    <h4>Transactions</h4>
+                </a>
+                <a href="#">
+                    <span class="material-icons">pie_chart</span>
+                    <h4>Analytics</h4>
+                </a>
+                <a href="#">
+                    <span class="material-icons">message</span>
+                    <h4>Messages</h4>
+                </a>
+            
+                <a href="#">
+                    <span class="material-icons">settings</span>
+                    <h4>Settings</h4>
+                </a>
+
+            </div>
+            <!-- End of sidebar -->
+
+            <div class="updates">
+              <span class="material-icons">update</span>
+              <h4>Updates Available</h4>
+              <p>Security Updates</p>
+              <p>General Updates</p>
+              <a href="#">Update Now</a>
+            </div>
+        </aside>
+        <!-- End of aside -->
+
+        <section class="middle">
+
+        </section>
+        <!-- End of Middle -->
+
+        <section class="right">
+
+        </section>
+        <!-- End of right -->
+    </main>
+    <!-- End of Main -->
+  </body>
 </html>

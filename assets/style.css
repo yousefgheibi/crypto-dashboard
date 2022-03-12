@@ -225,3 +225,94 @@ nav .profile-area .profile-photo{
 nav .profile-area button{
     display: none;
 }
+
+
+/* ------------------------ aside and sidebar ---------------------*/
+main {
+  display: grid;
+  grid-template-columns: 16rem auto 30rem;
+  gap:2rem;
+  width: 96%;
+  margin: 1rem auto 4rem;
+}
+
+main aside {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 88vh;
+}
+
+main aside #close-btn{
+  display: none;
+}
+
+main aside .sidebar a{
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  height: 4.2rem;
+  color: var(--color-gray-light);
+  position: relative;
+}
+
+main aside .sidebar a span {
+  font-size: 1.7rem;
+  margin-left: 3rem;
+  transition: all 300ms ease;
+}
+
+main aside .sidebar a.active{
+  background: var(--color-white);
+  color: var(--color-primary);
+}
+
+main aside .sidebar a.active:before{
+  content: "";
+  width: 6px;
+  height: 100%;
+  position: absolute;
+  background: var(--color-primary);
+}
+
+main aside .sidebar a:hover{
+  color: var(--color-primary);
+}
+main aside .sidebar a:hover span{
+  margin-left: 2rem;
+}
+
+main aside .sidebar h4{
+  font-weight: 500;
+}
+
+/* ------------ update -------------*/
+main aside .updates {
+  background: var(--color-white);
+  border-radius: var(--border-radius-1);
+  text-align: center;
+  padding: var(--card-padding);
+}
+
+main aside .updates span{
+  font-size: 2.8rem;
+}
+
+main aside .updates h4{
+  margin: 1rem 0;
+}
+
+main aside .updates a{
+  display: block;
+  width: 100%;
+  background: var(--color-primary);
+  color: var(--color-white);
+  border-radius: var(--border-radius-1);
+  padding: 0.8rem 0;
+  margin-top: 2rem;
+  transition: all 300ms ease;
+}
+
+main aside .updates a:hover{
+  box-shadow: 0 1rem 2rem var(--color-primary-light);
+}
