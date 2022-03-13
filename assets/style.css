@@ -75,7 +75,7 @@ h5 {
 }
 
 h6 {
-  font-size: 7.6rem;
+  font-size: 0.76rem;
 }
 
 p {
@@ -410,4 +410,15 @@ main section.middle .card .bottom{
 main section.middle .card .bottom .right{
   display: flex;
   gap: 2rem;
+}
+
+
+
+/* ---------------------- monthly-report ------------*/
+main .monthly-report{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 1rem;
+  justify-content: space-between;
+  margin-top: 2rem;
 }
