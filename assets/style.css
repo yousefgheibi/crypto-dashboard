@@ -316,3 +316,98 @@ main aside .updates a{
 main aside .updates a:hover{
   box-shadow: 0 1rem 2rem var(--color-primary-light);
 }
+
+/*-----------------Middle --------------------*/
+
+main section.middle .header{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+main section.middle .cards{
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 1rem;
+}
+
+main section.middle .cards .card{
+  background: linear-gradient(#ff796f, #bd261b );
+  padding: var(--card-padding);
+  border-radius: var(--card-border-radius);
+  color: white;
+  height: 16rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 2rem 3rem var(--color-danger-light);
+  transition: all 200ms ease;
+}
+
+
+main section.middle .cards .card:hover{
+  box-shadow: none;
+}
+
+main section.middle .cards .card:nth-child(2){
+  background: linear-gradient(#7f8191, #27282f );
+  box-shadow: 0 2rem 3rem rgba(0 ,0 ,0 , 0.2);
+}
+
+main section.middle .cards .card:nth-child(3){
+  background: linear-gradient(#5d70ff, #5719c2 );
+  box-shadow: 0 2rem 3rem var(--color-primary-light);
+}
+
+main section.middle .cards .card:hover{
+  box-shadow: none;
+}
+
+main section.middle .card .top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main section.middle .card .top .left{
+  display: flex;
+  gap: 0.5rem;
+}
+
+main section.middle .card .top .left h2{
+  font-weight: 200;
+  font-size: 1.4rem;
+}
+
+main section.middle .card .top .left img {
+  width: 2.3rem;
+  height: 2.3rem;
+  border: 1px solid white;
+  border-radius: var(--border-radius-2);
+  padding: 0.4rem;
+}
+
+main section.middle .card .top img.right{
+  width: 3.5rem;
+}
+
+main section.middle .card .middle{
+  display: flex;
+  justify-content: space-between;
+}
+
+main section.middle .card .middle .chip{
+  width: 5rem;
+}
+
+main section.middle .card .bottom{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+main section.middle .card .bottom .right{
+  display: flex;
+  gap: 2rem;
+}
