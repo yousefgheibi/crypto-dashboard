@@ -422,3 +422,59 @@ main .monthly-report{
   justify-content: space-between;
   margin-top: 2rem;
 }
+
+main .monthly-report h1{
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+/* ---------------------- fast-payment ------------*/
+main .fast-payment {
+  margin-top: 2rem;
+  display: flex;
+  align-self: center;
+  gap: 2rem;
+}
+
+main .fast-payment .badges{
+  display: flex;
+  gap: 1rem;
+  align-self: center;
+  flex-wrap: wrap;
+  max-width: 100%;
+}
+
+main .fast-payment .badge span {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+}
+
+main .fast-payment .badge{
+  padding: 0.6rem var(--card-padding);
+  background: var(--color-white);
+  border-radius: var(--border-radius-2);
+  display: flex;
+  align-self: center;
+  gap: 1rem;
+  transition: all 300ms ease;
+}
+
+main .fast-payment .badge:hover{
+  box-shadow: 0 0 1.5rem var(--color-primary-light);
+  cursor: pointer;
+}
+
+main .fast-payment .badge:first-child span{
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  height: fit-content;
+  font-size: 1.5rem;
+}
+
+main .fast-payment .badge div {
+  display: flex;
+  gap: 2rem;
+  align-self: center;
+}
