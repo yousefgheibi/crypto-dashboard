@@ -478,3 +478,13 @@ main .fast-payment .badge div {
   gap: 2rem;
   align-self: center;
 }
+
+/* --------------- canvas -------------*/
+
+canvas#chart{
+  background: var(--color-white);
+  max-width: 100%;
+  margin-top: 2rem;
+  border-radius: var(--card-border-radius);
+  padding: var(--card-padding);
+}
