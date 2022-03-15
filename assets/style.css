@@ -255,6 +255,7 @@ main {
   gap: 2rem;
   width: 96%;
   margin: 0.8rem 0.5rem;
+
 }
 
 main aside {
@@ -262,6 +263,7 @@ main aside {
   flex-direction: column;
   justify-content: space-between;
   height: 88vh;
+
 }
 
 main aside #close-btn {
@@ -340,6 +342,7 @@ main aside .updates a:hover {
 
 /*-----------------Middle --------------------*/
 
+
 main section.middle .header {
   display: flex;
   align-items: center;
@@ -349,7 +352,7 @@ main section.middle .header {
 main section.middle .cards {
   margin-top: 1rem;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 1rem;
 }
 
@@ -710,5 +713,13 @@ main .recent-transactions .card-details .card{
 @media screen and (min-width:1024px){
     main section.right{
   width: 23.4rem;
+}
+
+main aside{
+   position: fixed;
+  width: 18rem !important;
+}
+main section.middle {
+  margin-left: 20rem;
 }
 }
