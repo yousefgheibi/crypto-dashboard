@@ -254,7 +254,7 @@ main {
   grid-template-columns: 16rem auto 30rem;
   gap: 2rem;
   width: 96%;
-  margin: 1rem auto 4rem;
+  margin: 0.8rem 0.5rem;
 }
 
 main aside {
@@ -509,7 +509,6 @@ canvas#chart {
 }
 
 /*----------------- Investment --------------------*/
-
 main section.right .investments {
   background: var(--color-white);
   border-radius: var(--card-border-radius);
@@ -556,7 +555,7 @@ main .recent-transactions {
 }
 
 main .recent-transactions img {
-  width: 2.2rem;
+  width: 2rem;
 }
 
 main .recent-transactions .header {
@@ -605,8 +604,8 @@ main .recent-transactions .card-details {
 
 main .recent-transactions .card-details .card{
   display: flex;
-  width: 4.6rem;
-  height: 3rem;
+  width: 3rem;
+  height: 2.5rem;
   align-items: center;
   justify-content: center;
   border-radius: var(--border-radius-2);
@@ -633,6 +632,7 @@ main .recent-transactions .card-details .card{
   main {
     grid-template-columns: 1fr;
   }
+
 
   main aside{
     position: fixed;
@@ -705,4 +705,10 @@ main .recent-transactions .card-details .card{
     margin-top: 3rem;
     gap: 1.4rem;
   }
+}
+
+@media screen and (min-width:1024px){
+    main section.right{
+  width: 23.4rem;
+}
 }
