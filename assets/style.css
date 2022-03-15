@@ -27,6 +27,14 @@
   --border-radius-2: 6px;
 }
 
+/* dark theme variable */
+.dark-theme{
+  --color-white: #131316;
+  --color-light: #23232a;
+  --color-dark: #ddd;
+  --color-gray-light: #adacb5;
+}
+
 * {
   margin: 0;
   padding: 0;
